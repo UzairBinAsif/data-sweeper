@@ -5,7 +5,7 @@ from io import BytesIO
 
 st.set_page_config(page_title='Data Sweeper 💿', layout='wide')
 st.title('Data Sweeper 💿 and type converter 🔄')
-st.write('Convert your files to CSV or excel formats with built-in Data cleaning, Compression and Visualization')
+st.write('Convert your files to CSV or excel formats with built-in Data cleaning, Compression and Visualization - Made by Uzair Bin Asif')
 
 upload_files = st.file_uploader('Upload files', type=['csv', 'xlsx'], accept_multiple_files=True)
 
